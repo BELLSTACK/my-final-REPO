@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+
+
+
+
+
+
+*,html{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* header settings */
+
+.siteheader{
+    color: #490505;
+    height:600px;
+    width:100% ;
+    background-image: url('../assets/techimage.jpg');
+    background-size: cover;
+
+    /* background-position-y:-1000px; */
+
+
+}
+.sitenav{
+    height:150px;
+    font-size:20px;
+    font-family:'Gloock', serif; 
+    background-color:#62adb1;
+    width:100% ;
+    text-align:center;
+
+}
+.sitenav > h1{
+    margin-top:20px;
+    font-family:'Tilt Prism', cursive;
+    font-size:80px ;
+    padding-left:10px;
+    text-align: center;
+ 
+}
+.sitenav > a{
+    margin-right:20px;
+    padding-left:10px;
+    color: #620515d5;
+    text-decoration:inherit;
+    font-style: oblique;
+}
+.sitenav > a:hover{
+    color: #2d2b2b;
+    text-decoration: underline;
+}
+
+/* End of header settings */
+
+/* Main settings */
+    
+.siteMain{
+    background-color: #f4f9f9;
+    color: #70042c;
+    text-align: center;
+    height:900vh;
+    width:100%;
+    font-family:'PT Serif', serif;
+    
+
+}
+#first{
+    color: #4c021d;
+    font-size: 25px;
+    text-align: center;
+    
+}
+#second{
+    color: #0a0a0a;
+    font-size:medium;
+    text-align: left;
+}
+#third{
+    color: #121211;
+    font-size:medium;
+    text-align: left;
+}
+.textInfo{
+    background-color: rgb(192, 236, 224);
+    font-family:'Roboto Mono', monospace;
+    
+}
+.textsize{
+    font-size:25px;
+
+}
+.colors{
+    background-color: #ece1b7;
+    color: #d9a2b0;
+
+}
+#section1{
+    height:450px;
+    width:30%;
+    background-color: floralwhite;
+    border: 2px solid #272525;
+    margin: 40px 10px 40px 75px;
+    border-radius: 3px;
+    box-shadow:0 0 8px 5px rgb(122, 47, 47);
+
+}
+#section2{
+    background-color: #e1b4d0;
+    height: 600px;;
+
+}
+.sec2Div{
+    position:relative;
+    height: 450px;
+    width:50%;
+    text-align: center;
+    float:left;
+    padding:40px 0px 0px 35px;
+
+}
+.imgDiv{
+    position: relative;
+    height: 450px;
+    width: 450px;
+    /* box-shadow: 0 0 8px 5px black; */
+
+}
+.content{
+    padding-top: 100px;
+    padding-left:30px;
+
+}
+#section3{
+    background-color: #faebd7;
+    height:600px;
+    
+    
+}
+#section4{
+    height:1200px;
+    background-color: #9dd7eb;
+    text-align:center;
+    width:60%;
+    margin-left:275px;
+
+}
+.sectioncommon{
+    
+    height:250px ;
+    padding:15px;
+    margin:20px auto;
+
+
+}
+.section3 > #video{
+    width:80%;
+    height:450px;
+    object-fit:cover;
+    /* position:relative; */
+}
+.section3 > .stitle{
+    top:1750px;
+    position:absolute;
+    color: darkmagenta;
+    padding-top:40px;
+    padding-left:650px;
+    text-align: center;
+
+
+}
+.section3 > .slist{
+    /* padding-bottom:100vh; */
+    padding-left:600px;
+    top:1880px;
+    position:absolute;
+    color: #e9b8e4;
+    font-size:15px;
+
+
+
+}
+.titles{
+    font-family:'Gloock', serif ;
+    font-size:30px;
+    text-align: center;
+    color: rgb(4, 71, 26);
+    
+
+}
+
+/* Form settings */
+.contactForm{
+    text-align: center;
+    border:2px solid black;
+    margin: 20px;
+    padding:40px;
+
+}
+.contactForm > label{
+    font-size:25px;
+    color: #48041d;
+}
+.contactForm > input[type='text'], input[type='email'], select, textarea{
+    width:80%;
+    font-size:20px;
+    margin:15px;
+}
+.titles1{
+    color: #af0d96;
+    font-size:25px;
+
+}
+    
+
+/* End of main settings */
+
+
+/* footer settings */
+
+.sitefooter{
+    padding-top:40px;
+    width:100%;
+    height:150px;
+    background-color: #8fbdc0;
+    bottom:0;
+    position: fixed;
+    text-align: center;
+    color: #000000;
+    
+}
+
+
+/* End of footer settings */
